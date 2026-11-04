@@ -1,0 +1,31 @@
+{
+  "name": "dsh-marketing-skills",
+  "version": "0.1.0",
+  "description": "Curated marketing skills for DeepSeek Harness: copywriting, copy editing, CRO, A/B testing, email, popups, offers, pricing. MIT, with a router skill.",
+  "type": "module",
+  "exports": {
+    ".": "./plugin/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "plugin",
+    "skills",
+    "manifest.json",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./plugin/cordis.patch.yml"
+    }
+  },
+  "keywords": ["dsh", "deepseek-harness", "skills", "marketing", "copywriting", "cro", "pricing"],
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}
