@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Marketing Skills">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c2d12"/><stop offset="1" stop-color="#ea580c"/></linearGradient></defs>
+  <rect width="256" height="256" rx="56" fill="url(#g)"/>
+  <path d="M62 112v32a16 16 0 0 0 16 16h12l10 34h24l-10-34h10l70 34V78l-70 34H78a16 16 0 0 0-16 16Z" fill="#fff7ed"/>
+  <path d="M196 96v64" stroke="#fed7aa" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="196" cy="156" r="8" fill="#fed7aa"/>
+</svg>
